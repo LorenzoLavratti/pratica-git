@@ -8,6 +8,7 @@ def main():
     valores = leitor.getValores()
     print(valores)
 
+    plt.title('Gráfico de linhas')
     plt.ylabel('Valores de entrada')
     plt.xlabel('Amostragem')
 
